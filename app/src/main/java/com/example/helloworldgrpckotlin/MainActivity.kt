@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var message: TextView
     private lateinit var responseText: TextView
 
-
-
     private fun channel(): ManagedChannel {
         val url = host.text.toString()
         val port = userPort.text.toString()
